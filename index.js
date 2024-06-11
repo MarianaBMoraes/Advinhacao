@@ -4,6 +4,7 @@ var aleatorio = Math.floor(Math.random() * 101);
 
 console.log("Jogo da adivinhação!");
 console.log("Digite um número de 0 a 100 (Você tem 3 tentativas):");
+console.log("Boa sorte!")
 
 process.stdin.on("data", function (data) {
   if (data.toString().trim().toLowerCase() == "não") {
