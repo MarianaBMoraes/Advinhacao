@@ -1,9 +1,9 @@
 let numero = "";
 let i = 1;
-var aleatorio = Math.floor(Math.random() * 101);
+var aleatorio = Math.floor(Math.random() * 101) + 100;
 
 console.log("Jogo da adivinhação!");
-console.log("Digite um número de 0 a 100 (Você tem 3 tentativas):");
+console.log("Digite um número de 100 a 200 (Você tem 3 tentativas):");
 
 process.stdin.on("data", function (data) {
   if (data.toString().trim().toLowerCase() == "não") {
@@ -12,7 +12,7 @@ process.stdin.on("data", function (data) {
   } else if (data.toString().trim().toLowerCase() == "sim") {
     numero = "";
     i = 1;
-    aleatorio = Math.floor(Math.random() * 101);
+    aleatorio = Math.floor(Math.random() * 101) + 100;
     console.log("Digite o número:");
   } else {
     numero = Number(data.toString().trim());
