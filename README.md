@@ -1,7 +1,3 @@
-Claro, aqui está o README para o seu script:
-
----
-
 # Jogo de Adivinhação em JavaScript
 
 Este é um simples jogo de adivinhação implementado em JavaScript, onde o usuário tenta adivinhar um número aleatório gerado pelo computador.
